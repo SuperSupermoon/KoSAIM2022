@@ -1,11 +1,10 @@
 # [KoSAIM 2022 Summer School] RNN Hands-on session. 
 
+# ICU Mortality Prediction
+
 ## Code.
-### Google colab
 https://colab.research.google.com/drive/1GwLQd2ij4EShd7H7cVtxU2tqAZVMAS1N?usp=sharing
 
-
-# ICU Mortality Prediction
 
 ## Objective
 Given ICU records where the length-of-stay is between 24 hours and 48 hours (i.e. 1 day <= length-of-stay <= 2 days), use the information from the first 3 hours to predict whether the patient will die during the ICU stay.

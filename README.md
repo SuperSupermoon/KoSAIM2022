@@ -15,5 +15,6 @@ https://www.classum.com/main/course/7726/103
 Mortality prediction Instruction
 https://docs.google.com/document/d/1YmgVyovT0zk5Q9e9zjL2xAnIG8fJH3mq8KGOHEL4F_Y/edit
 
-작년 링크 (경훈이)
-https://colab.research.google.com/drive/1fWH8fhN2kuvI6a_mMFqGnpKrU3FijVDa
+## Handson session.
+### Google colab
+https://colab.research.google.com/drive/1GwLQd2ij4EShd7H7cVtxU2tqAZVMAS1N?usp=sharing

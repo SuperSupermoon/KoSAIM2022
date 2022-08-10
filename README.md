@@ -1,6 +1,6 @@
 # [KoSAIM 2022 Summer School] RNN Hands-on session. 
 
-# ICU Mortality Prediction
+# ICU Mortality Prediction (Survive? or Die?)
 
 ## [Click to implement tutorial Code.](https://colab.research.google.com/drive/1GwLQd2ij4EShd7H7cVtxU2tqAZVMAS1N?usp=sharing)
 

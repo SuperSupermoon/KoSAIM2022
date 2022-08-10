@@ -2,7 +2,7 @@
 
 # ICU Mortality Prediction
 
-## [Click](https://colab.research.google.com/drive/1GwLQd2ij4EShd7H7cVtxU2tqAZVMAS1N?usp=sharing) to implement tutorial Code.
+## [Click to implement tutorial Code.](https://colab.research.google.com/drive/1GwLQd2ij4EShd7H7cVtxU2tqAZVMAS1N?usp=sharing)
 
 ## Objective.
 Given ICU records where the length-of-stay is between 24 hours and 48 hours (i.e. 1 day <= length-of-stay <= 2 days), use the information from the first 3 hours to predict whether the patient will die during the ICU stay.

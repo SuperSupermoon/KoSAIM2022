@@ -21,14 +21,14 @@ Use the Logistic Regression and the Gated Recurrent Unit (GRU) to compare perfor
 - Keep the maximum sequence length of each sample to 100!! This is to make the RNN training more manageable. If some ICU stay has more than 100 events within the first 3 hours, remove the extra events.
 
 
-- CHARTEVENTS
-    - ICUSTAY_ID
-      If icustay_id is NULL, disregard that row.
-    - ITEMID
-      If you are curious about what the itemid represents, refer to D_ITEMS.
-    - VALUENUM
-      If valuenum is NULL, disregard that row.
-    - CHARTTIME
+    - CHARTEVENTS
+        - ICUSTAY_ID
+          If icustay_id is NULL, disregard that row.
+        - ITEMID
+          If you are curious about what the itemid represents, refer to D_ITEMS.
+        - VALUENUM
+          If valuenum is NULL, disregard that row.
+        - CHARTTIME
 
 * You can also use other tables for additional features.
   E.g. GENDER from PATIENTS, ETHNICITY from ADMISSIONS

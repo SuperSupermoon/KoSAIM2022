@@ -1,6 +1,6 @@
 # [KoSAIM 2022 Summer School] RNN Hands-on session. 
 
-## Handson session.
+## Code.
 ### Google colab
 https://colab.research.google.com/drive/1GwLQd2ij4EShd7H7cVtxU2tqAZVMAS1N?usp=sharing
 

@@ -35,16 +35,16 @@ Use the Logistic Regression and the Gated Recurrent Unit (GRU) to compare perfor
  
 ## Things to consider:
 - Continuous values
-Each discrete ITEMID comes with a continuous value. How would you use these two types of information to form a sequence input?
+  - Each discrete ITEMID comes with a continuous value. How would you use these two types of information to form a sequence input?
 
 - How to use time?
-Timestamps are continuous values. How would you use them when using RNN?
+  - Timestamps are continuous values. How would you use them when using RNN?
 
 - What if two events happen at the same time?
-There can be two measurements at the same CHARTTIME. Then how would you treat them when you create a sequence input?
+  - There can be two measurements at the same CHARTTIME. Then how would you treat them when you create a sequence input?
 
 - Unknown feature values
-For example, if your training data does not include some ITEMID A, but your test data does, then how are you going to handle that?
+  - For example, if your training data does not include some ITEMID A, but your test data does, then how are you going to handle that?
 
 
 ## Labels

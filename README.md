@@ -4,6 +4,8 @@
 
 ## [Click to implement tutorial Code.](https://colab.research.google.com/drive/1GwLQd2ij4EShd7H7cVtxU2tqAZVMAS1N?usp=sharing)
 
+### Please Leave any Issues if you have!
+
 ## Objective.
 Given ICU records where the length-of-stay is between 24 hours and 48 hours (i.e. 1 day <= length-of-stay <= 2 days), use the information from the first 3 hours to predict whether the patient will die during the ICU stay.
 Use the Logistic Regression and the Gated Recurrent Unit (GRU) to compare performance.
@@ -74,5 +76,3 @@ Must use Numpy float format.
  - Use both AUROC and AUPRC as the evaluation metric.
 
 
-
-Please Leave any Issues if you have!

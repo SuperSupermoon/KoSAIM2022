@@ -33,11 +33,11 @@ Use the Logistic Regression and the Gated Recurrent Unit (GRU) to compare perfor
   E.g. GENDER from PATIENTS, ETHNICITY from ADMISSIONS
 
  
-Things to consider:
+## Things to consider:
 - Continuous values
 Each discrete ITEMID comes with a continuous value. How would you use these two types of information to form a sequence input?
 
-- How to use time
+- How to use time?
 Timestamps are continuous values. How would you use them when using RNN?
 
 - What if two events happen at the same time?

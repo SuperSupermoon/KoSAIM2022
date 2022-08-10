@@ -1,4 +1,6 @@
-# RNN-lecture
+# [KoSAIM 2022 Summer School] RNN Hands-on session. 
+
+# Mortality Prediction.
 
 RNN 설명
 https://www.youtube.com/watch?v=R6PDzmMOHXI

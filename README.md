@@ -73,7 +73,7 @@ Must use Numpy float format.
 
 
 ## Modeling & Evaluation
- - Use PyTorch LSTM to train an RNN classifier.
+ - Use PyTorch LSTM to train a RNN classifier.
  - Use both AUROC and AUPRC as the evaluation metric.
 
 

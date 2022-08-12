@@ -12,7 +12,7 @@ Given ICU records where the length-of-stay is between 24 hours and 48 hours (i.e
 ## Dataset.
 MIMIC-III
 
-- Tables & Features
+## Tables & Features
   Each patient has one or more ICU admission records, where each ICU admission has a unique ID denoted by ICUSTAY_ID. Use the following columns from each table to form a patient representation vector. 
 
 ## IMPORTANT! 

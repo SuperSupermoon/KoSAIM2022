@@ -4,7 +4,7 @@
 
 ## [Click to implement tutorial Code.](https://colab.research.google.com/drive/1GwLQd2ij4EShd7H7cVtxU2tqAZVMAS1N?usp=sharing)
 
-### Please Leave any Issues if you have!
+### Please Leave any Issues if you have! Any time!
 
 ## Objective.
 Given ICU records where the length-of-stay is between 24 hours and 48 hours (i.e. 1 day <= length-of-stay <= 2 days), use the information from the first 3 hours to predict whether the patient will die during the ICU stay. Use the LSTM model.
@@ -22,8 +22,6 @@ MIMIC-III
       - If icustay_id is NULL, disregard that row.
     - ITEMID
       - If you are curious about what the itemid represents, refer to D_ITEMS.
-    - VALUENUM
-      - If valuenum is NULL, disregard that row.
     - CHARTTIME
 - Do not use features that are outside the first 3 hours. 
 - Keep the maximum sequence length of each sample to 100!! This is to make the RNN training more manageable. If some ICU stay has more than 100 events within the first 3 hours, remove the extra events.
@@ -39,9 +37,6 @@ MIMIC-III
 
 - How to use time?
   - Timestamps are continuous values. How would you use them when using RNN?
-
-- What if two events happen at the same time?
-  - There can be two measurements at the same CHARTTIME. Then how would you treat them when you create a sequence input?
 
 - Unknown feature values
   - For example, if your training data does not include some ITEMID A, but your test data does, then how are you going to handle that?
